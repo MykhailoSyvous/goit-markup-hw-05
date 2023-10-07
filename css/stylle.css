@@ -560,7 +560,9 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.svg-icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .btn-close{
     position: absolute;
@@ -635,6 +637,7 @@ margin-bottom: 4px;
     transition: fill 250ms cubic-b
     ezier(0.4, 0, 0.2, 1);
     fill:#2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .input:focus + .svg-icon{
@@ -649,7 +652,7 @@ margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--color-secundery);
+    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4) ;
     border-radius: 4px;
     background-color: transparent; 
@@ -660,12 +663,12 @@ margin-bottom: 4px;
     margin-bottom: 16px;
 }
 
-.textarea:focus input{
+.textarea:focus + .input{
     border-color: #4D5AE5;
 }
-.chekbox{
-    margin-bottom: 24px;
-}
+.box-true{ margin-bottom: 24px;}
+   
+
 .input-checkbox{
 
 }
