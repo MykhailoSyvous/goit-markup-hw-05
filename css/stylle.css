@@ -666,15 +666,17 @@ margin-bottom: 4px;
 .textarea:focus + .input{
     border-color: #4D5AE5;
 }
-.box-true{ margin-bottom: 24px;}
-   
+.box-true{
+    margin-bottom: 24px;
+}
+    
 
 .input-checkbox{
 
 }
-.input-checkbox:checked + .label-checkbox > .span-checkbox{
+.input-checkbox:checked + .box-true > .label-checkbox > .span-checkbox{
     background-color:#404bbf; 
-border: none;
+    border: none;
 
 }
 .label-checkbox{
