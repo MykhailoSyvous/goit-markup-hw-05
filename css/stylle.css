@@ -561,7 +561,7 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .svg-icon{
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .btn-close{
@@ -587,7 +587,7 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
     fill: #ffffff;
 }
 .icon-close{
-
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .text-modal{
     color: var(--color-secundery);
@@ -663,7 +663,7 @@ margin-bottom: 4px;
     margin-bottom: 16px;
 }
 
-.textarea:focus + .input{
+.textarea:focus{
     border-color: #4D5AE5;
 }
 .box-true{
@@ -687,6 +687,7 @@ margin-bottom: 4px;
     color:var(--color-secundery);
     display: flex;
     align-items: center;
+    color:  #8e8f99;;
 
 
 }
@@ -698,7 +699,7 @@ margin-bottom: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex; 
+    display: inline-flex;
     margin-right: 9px;
     fill: transparent;
     align-items: center;
