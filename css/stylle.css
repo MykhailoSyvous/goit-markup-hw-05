@@ -529,7 +529,57 @@ height: 40px;
 fill:#f4f4fd ;
 }
 
+.form-footer{
 
+}
+.text-form-footer{
+color: #FFF;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+ background-color: transparent;
+ 
+}
+.form-form-footer{
+    display: flex;
+    gap: 24px ;
+}
+.label-footer{
+
+}
+.input-footer{
+    width: 264px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid  #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.5em;
+letter-spacing: 0.04em;
+}
+.input::placeholder{
+    color: #ffffff;
+}
+.btn-footer{
+    color:  #FFF;
+text-align: center;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 4px;
+background-color:#4D5AE5;
+border: none;
+}
+.svg-footer{
+    margin-left: 16px;
+}
 /* ===========================backdrop==================================== */
 
 
@@ -676,7 +726,8 @@ margin-bottom: 4px;
 }
 .input-checkbox:checked + .label-checkbox > .span-checkbox{
     background-color:#404bbf;
- fill: #4D5AE5;
+fill:  #F4F4FD;
+ border: none;
 
 }
 
@@ -704,9 +755,11 @@ margin-bottom: 4px;
     fill: transparent;
     align-items: center;
     justify-content: center;
+    display: inline-flex;
 }
 .link-backdrop{
-    color: #4d5ae5;;
+    color: #4d5ae5;
+    margin-left: 4px;
 }
 
 .bnt-modal{
