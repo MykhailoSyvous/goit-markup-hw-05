@@ -674,11 +674,12 @@ margin-bottom: 4px;
 .input-checkbox{
 
 }
-.input-checkbox:checked + .box-true > .label-checkbox > .span-checkbox{
-    background-color:#404bbf; 
-    border: none;
+.input-checkbox:checked + .label-checkbox > .span-checkbox{
+    background-color:#404bbf;
+ fill: #4D5AE5;
 
 }
+
 .label-checkbox{
     font-size: 12px;
     line-height: 1.17;
