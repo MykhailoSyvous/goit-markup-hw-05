@@ -722,7 +722,7 @@ margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-   
+    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4) ;
     border-radius: 4px;
     background-color: transparent; 
@@ -733,7 +733,7 @@ margin-bottom: 4px;
 
 }
 .textarea::placeholder{
-    color: rgba(46, 47, 66, 0.4);
+  
 }
 
 
@@ -754,7 +754,7 @@ fill:  #F4F4FD;
  border: none;
 
 }
-
+.input-checkbox:focus + .label-checkbox > .span-checkbox {    border-color: #404bbf;}
 .label-checkbox{
     font-size: 12px;
     line-height: 1.17;
@@ -812,6 +812,6 @@ fill:  #F4F4FD;
     margin: 0 auto;
 
 }
-.bnt-modal:hover .bnt-modal:focus{
+.bnt-modal:hover, .bnt-modal:focus{
     background-color: #404bbf;
 }
