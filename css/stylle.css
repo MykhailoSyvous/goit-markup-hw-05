@@ -609,7 +609,7 @@ opacity: 0;
 visibility: hidden;
 pointer-events: none;
 }
-is.open{
+.backdrop.is-open{
    opacity: 1;
    visibility: visible; 
    pointer-events: auto;
@@ -734,7 +734,7 @@ margin-bottom: 4px;
 
 }
 .textarea::placeholder{
-    color: rgba(46, 47, 66, 0.4);
+  
 }
 .textarea:focus{
     border-color: #4D5AE5;
